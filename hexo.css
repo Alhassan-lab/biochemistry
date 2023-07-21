@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background: #f5f6f7;
+    background-image: url(https://th.bing.com/th/id/R.35747b420d7c643bfc01557d97e01e9a?rik=1wgRcMXYxMg8yg&riu=http%3a%2f%2fwww.ox.ac.uk%2fsites%2ffiles%2foxford%2ffield%2ffield_image_main%2fDNA2.jpg&ehk=VhIwKdUHVMGPBWEOmzpDpMYRaDxhK%2bX0tUobsYkIejc%3d&risl=&pid=ImgRaw&r=0);
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: beige;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+    background-color: darkblue;
+    
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+
+}
+.gallery img{
+    width: 300px;
+    max-width: 350px;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 10px;
+    
+
+}
+gallery::after{
+    content:"";
+    width:350px;
+}
+h1{
+    background-color: rgb(25, 56, 56);
+}
+button{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-block-color: rgb(55, 55, 35);
+}
+.footer{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: beige;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+    background-color: darkblue;
+    margin: 0px;
+}
